@@ -13,6 +13,6 @@ function openTabs(events, name) {
     }
   
    
-    document.getElementById(name).style.display = "block";
+    document.getElementById(name).style.display = "flex";
     evt.currentTarget.className += " active";
   }

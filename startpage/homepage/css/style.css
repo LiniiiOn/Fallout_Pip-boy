@@ -69,6 +69,49 @@ button {
 
 }
 
+.tabcontent5 {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 155px;
+    
+}
+.tabcontent5 button {
+    position: relative;
+    padding: 10px 5px;
+    background-color: transparent;
+    border: none;
+    color: #2fde4d;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.tabcontent1 {
+    flex-direction: column;
+    justify-self: flex-end;
+    margin-right: 155px;
+   
+    
+}
+.tabcontent1 p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    align-self: center;
+    font-size: 100px;
+}
+.tabcontent1 button {
+    position: relative;
+    width: 150px;
+    padding: 10px 5px;
+    background-color: transparent;
+    border: none;
+    color: #2fde4d;
+    cursor: pointer;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
 .screen {
     position: absolute;
     opacity: 0.05;
