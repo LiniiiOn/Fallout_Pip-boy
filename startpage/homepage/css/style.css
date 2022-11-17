@@ -8,6 +8,7 @@ body {
     flex-direction: row;
 }
 .left_bort {
+
     background-color: #000;
     min-height: 100vh;
     width: 7%;
@@ -15,6 +16,7 @@ body {
 
 }
 .right_bort {
+
     background-color: #000;
     min-height: 100vh;
     width: 7%;
@@ -22,6 +24,7 @@ body {
 
 }
 .center_bort {
+
     background-color: #031300;
     width: 100%;
     min-height: 100vh;
@@ -32,16 +35,42 @@ body {
 }
 
 .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header button {
+    position: relative;
+    padding: 10px 25px;
+    background-color: transparent;
+    border: none;
+    color: #2fde4d;
+    cursor: pointer;
+    font-size: 25px;
     
 }
-.content {
 
+.header button:hover {
+    color: #32ee51;
 }
-.footer {
+
+.header button:active {
+    color: #28ca43;
+}
+
+button {
+    position: relative;
+}
+
+.tabcontent {
+    color: #28ca43;
+    display: none;
 
 }
 
 .screen {
-    opacity: 0.05;
     position: absolute;
+    opacity: 0.05;
+
 }
